@@ -6,6 +6,7 @@
 ^https://verisistemi\.tbb\.org\.tr/
 ^https://www\.tobb\.org\.tr/
 ^https://acikveri\.denizli\.bel\.tr/
+^https://www\.ptt\.gov\.tr/
 
 # Server only offers TLS cipher suites without forward secrecy, which the
 # link checker does not support; checked manually.
