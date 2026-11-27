@@ -18,6 +18,10 @@
   - [Metropolitan Municipalities](#metropolitan-municipalities)
   - [District Municipalities](#district-municipalities)
 - [Transport](#transport)
+- [Earthquake and Disaster](#earthquake-and-disaster)
+- [Weather and Environment](#weather-and-environment)
+- [Health](#health)
+- [Education and Research](#education-and-research)
 - [Elections](#elections)
 
 ## Statistics and National Portals
@@ -104,6 +108,40 @@ Portals marked CKAN expose the standard [CKAN Action API](https://docs.ckan.org/
 - [İBB Ulaşım Yönetim Merkezi](https://uym.ibb.gov.tr/) - Istanbul traffic density map and traffic bulletins. *İstanbul trafik yoğunluk haritası ve trafik bültenleri.*
 - [KGM Trafik Hacim Haritaları](https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Trafik/TrafikHacimHaritasi.aspx) - General Directorate of Highways traffic volume maps for the national road network. *Karayolları Genel Müdürlüğü trafik hacim haritaları.*
 - [DHMİ İstatistikleri](https://www.dhmi.gov.tr/Sayfalar/Istatistikler.aspx) - Monthly aircraft, passenger and cargo statistics for Turkish airports, downloadable. *Havalimanları uçak, yolcu ve yük istatistikleri.*
+
+## Earthquake and Disaster
+
+- [AFAD Deprem Web Servisi](https://deprem.afad.gov.tr/event-service) - Documented web service for the latest 1,000 earthquakes recorded by AFAD, with time, area, depth and magnitude filters and JSON, XML, CSV, KML or GeoJSON output. No key required. *AFAD'ın kaydettiği son 1000 deprem; filtreli, JSON/XML/CSV/KML/GeoJSON.*
+- [Kandilli Son Depremler](http://www.koeri.boun.edu.tr/scripts/lst0.asp) - Boğaziçi University Kandilli Observatory's plain-text list of the latest earthquakes. *Kandilli Rasathanesi son depremler listesi (düz metin).*
+- [KOERI FDSN Web Services](https://eida.koeri.boun.edu.tr/fdsnws/) - FDSN station and dataselect services for metadata and waveforms of the Kandilli (KO) seismic network. *Kandilli sismik ağının istasyon ve dalga formu verileri (FDSN).*
+- [MTA Yer Bilimleri Harita Görüntüleyici](https://yerbilimleri.mta.gov.tr/) - Earth sciences map viewer of the General Directorate of Mineral Research and Exploration. *Maden Tetkik ve Arama Genel Müdürlüğü yer bilimleri harita görüntüleyicisi.*
+- [Kandilli Rasathanesi API](https://github.com/orhanayd/kandilli-rasathanesi-api) - Community API that merges Kandilli and AFAD earthquake data, with GeoJSON output and filters. Custom non-commercial license. *Kandilli ve AFAD verilerini birleştiren topluluk API'si; ticari olmayan özel lisans.*
+
+## Weather and Environment
+
+- [Meteoroloji Genel Müdürlüğü](https://www.mgm.gov.tr/) - Official forecasts, observations and warnings from the Turkish State Meteorological Service. No public API. *Resmî hava tahminleri, gözlemler ve uyarılar.*
+- [MGM İl ve İlçe İstatistikleri](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx) - General climate statistics and 1991-2020 seasonal normals by province. *İllere ait genel istatistiki veriler ve 1991-2020 mevsim normalleri.*
+- [Hava Kalitesi Veri Bankası](https://sim.csb.gov.tr/STN/STN_Report/DataBank) - Station measurements from the National Air Quality Monitoring Network, with data download and charts. *Ulusal Hava Kalitesi İzleme Ağı istasyon verileri ve indirme.*
+- [Çevresel Göstergeler](https://cevreselgostergeler.csb.gov.tr/) - Environmental indicators published by the Ministry of Environment, Urbanisation and Climate Change. *Çevre, Şehircilik ve İklim Değişikliği Bakanlığı çevresel göstergeleri.*
+- [İSKİ Baraj Doluluk Oranları](https://iski.istanbul/baraj-doluluk/) - Istanbul dam occupancy rates with overall and per-dam charts. *İstanbul baraj doluluk oranları ve grafikleri.*
+
+## Health
+
+- [Sağlık Bakanlığı Açık Veri Portalı](https://acikveri.saglik.gov.tr/) - Ministry of Health open data portal, mostly annotated medical imaging datasets such as those released for TEKNOFEST competitions. *Sağlık Bakanlığı açık veri portalı; ağırlıklı olarak etiketli tıbbi görüntü veri setleri.*
+- [Sağlık İstatistikleri](https://sbsgm.saglik.gov.tr/TR-93554/istatistikler.html) - Ministry of Health statistics pages, including the annual Health Statistics Yearbook. *Sağlık İstatistikleri Yıllığı ve diğer istatistikler.*
+- [TİTCK İlaç Fiyat Listesi](https://www.titck.gov.tr/dinamikmodul/100) - Reference-based drug price lists from the Turkish Medicines and Medical Devices Agency, as XLSX files. *Referans bazlı ilaç fiyat listeleri (XLSX).*
+- [TİTCK E-Reçete İlaç Listesi](https://www.titck.gov.tr/dinamikmodul/43) - Regularly updated XLSX list of drugs and pharmaceutical products for e-prescriptions. *Düzenli güncellenen e-reçete ilaç ve farmasötik ürün listesi (XLSX).*
+
+## Education and Research
+
+- [Yükseköğretim Bilgi Yönetim Sistemi](https://istatistik.yok.gov.tr/) - Council of Higher Education statistics system for universities, students and academic staff. *YÖK yükseköğretim istatistikleri sistemi.*
+- [YÖK Atlas](https://yokatlas.yok.gov.tr/) - Higher education programme atlas with placement statistics for each university programme. *Üniversite programlarının yerleştirme istatistikleri.*
+- [MEB Resmî İstatistikler](https://sgb.meb.gov.tr/www/resmi-istatistikler/icerik/64) - Ministry of National Education official statistics publications. *Millî Eğitim Bakanlığı resmî istatistik yayınları.*
+- [ULAKBİM Üniversite Veri Portalı](https://veri.ulakbim.gov.tr/index) - TÜBİTAK ULAKBİM portal sharing university outputs collected from its information systems. *TÜBİTAK ULAKBİM'in üniversite kazanımlarını paylaştığı veri portalı.*
+- [Ulusal Tez Merkezi](https://tez.yok.gov.tr/UlusalTezMerkezi/) - National Thesis Center for searching graduate theses. *Lisansüstü tezler için ulusal tez arama merkezi.*
+- [DergiPark](https://dergipark.org.tr/) - Hosting platform for Turkish academic journals, with an OAI-PMH endpoint at `dergipark.org.tr/api/public/oai/`. *Türk akademik dergileri platformu; OAI-PMH desteği.*
+- [TR Dizin](https://trdizin.gov.tr/) - TÜBİTAK ULAKBİM's national index of Turkish academic journals. *TÜBİTAK ULAKBİM ulusal akademik dergi dizini.*
+- [Aperta](https://aperta.ulakbim.gov.tr/) - TÜBİTAK open archive for publications and research data, with a JSON REST API at `/api/records`. *TÜBİTAK açık arşivi; yayın ve araştırma verileri, REST API.*
 
 ## Elections
 
