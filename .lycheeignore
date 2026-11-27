@@ -5,7 +5,7 @@
 # missing intermediate open it fine; checked manually.
 ^https://verisistemi\.tbb\.org\.tr/
 ^https://www\.tobb\.org\.tr/
-^https://acikveri.denizli.bel.tr/
+^https://acikveri\.denizli\.bel\.tr/
 
 # Server only offers TLS cipher suites without forward secrecy, which the
 # link checker does not support; checked manually.
@@ -16,3 +16,13 @@
 ^https://karararama\.yargitay\.gov\.tr/
 ^https://ticaret\.gov\.tr/
 ^https://uygulama\.gtb\.gov\.tr/
+^https://data\.ibb\.gov\.tr/
+^https://uym\.ibb\.gov\.tr/
+^https://veri\.kocaeli\.bel\.tr/
+^https://acikveri\.kayseri\.bel\.tr/
+^https://acikveri\.balikesir\.bel\.tr/
+^https://acikveri\.kucukcekmece\.bel\.tr/
+^https://acikveri\.eyupsultan\.bel\.tr/
+^https://acikveri\.nilufer\.bel\.tr/
+^https://acikveri\.ysk\.gov\.tr/
+^https://sonuc\.ysk\.gov\.tr/
