@@ -1,3 +1,7 @@
 # Hosts that are checked manually because they block or time out for
 # automated requests from outside Türkiye. Keep this list short and
 # re-check these links by hand before each release.
+
+# Server sends an incomplete TLS certificate chain. Browsers that fetch the
+# missing intermediate open it fine; checked manually.
+^https://verisistemi\.tbb\.org\.tr/
