@@ -14,6 +14,11 @@
 - [Energy](#energy)
 - [Legislation and Justice](#legislation-and-justice)
 - [Trade and Customs](#trade-and-customs)
+- [Municipalities](#municipalities)
+  - [Metropolitan Municipalities](#metropolitan-municipalities)
+  - [District Municipalities](#district-municipalities)
+- [Transport](#transport)
+- [Elections](#elections)
 
 ## Statistics and National Portals
 
@@ -64,6 +69,47 @@
 - [TİM İhracat Rakamları](https://tim.org.tr/tr/ihracat-rakamlari) - Turkish Exporters Assembly monthly export figures by sector. *Türkiye İhracatçılar Meclisi aylık sektörel ihracat rakamları.*
 - [Market Fiyatı](https://marketfiyati.org.tr/) - Grocery price comparison across thousands of products in many stores. No documented public API. *Birçok mağazada binlerce ürünün fiyat karşılaştırması.*
 - [TOBB Kurulan ve Kapanan Şirket İstatistikleri](https://www.tobb.org.tr/BilgiErisimMudurlugu/Sayfalar/KurulanKapananSirketistatistikleri.php) - Official statistics on companies founded and closed, published by the Union of Chambers and Commodity Exchanges. *Kurulan ve kapanan şirketlere ilişkin resmî istatistikler.*
+
+## Municipalities
+
+Portals marked CKAN expose the standard [CKAN Action API](https://docs.ckan.org/en/latest/api/), for example `/api/3/action/package_list`.
+
+### Metropolitan Municipalities
+
+- [İBB Açık Veri Portalı](https://data.ibb.gov.tr/) - Istanbul Metropolitan Municipality's portal with hundreds of datasets on mobility, environment, economy, energy and governance. CKAN. *İstanbul Büyükşehir Belediyesi açık veri portalı; CKAN API.*
+- [İzmir Büyükşehir Belediyesi Açık Veri Portalı](https://acikveri.bizizmir.com/) - İzmir Metropolitan Municipality datasets on infrastructure, GIS, mobility, environment, health and more. CKAN. *İzmir Büyükşehir Belediyesi açık veri portalı; CKAN API.*
+- [Şeffaf Ankara](https://seffaf.ankara.bel.tr/) - Ankara Metropolitan Municipality transparency portal built on a GIS infrastructure. *Ankara Büyükşehir Belediyesi'nin CBS tabanlı şeffaflık portalı.*
+- [Konya Açık Veri Platformu](https://acikveri.konya.bel.tr/) - Konya Metropolitan Municipality datasets. CKAN. *Konya Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Bursa Açık Yeşil](https://acikyesil.bursa.bel.tr/) - Bursa Metropolitan Municipality open data platform. CKAN. *Bursa Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Gaziantep Açık Veri Platformu](https://acikveri.gaziantep.bel.tr/) - Gaziantep Metropolitan Municipality datasets. CKAN. *Gaziantep Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Açık Veri Balıkesir](https://acikveri.balikesir.bel.tr/) - Balıkesir Metropolitan Municipality datasets. CKAN. *Balıkesir Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Trabzon Açık Veri Platformu](https://acikveri.trabzon.bel.tr/) - Trabzon Metropolitan Municipality datasets. CKAN. *Trabzon Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Denizli Açık Veri Platformu](https://acikveri.denizli.bel.tr/) - Denizli Metropolitan Municipality datasets. CKAN. *Denizli Büyükşehir Belediyesi açık veri platformu; CKAN API.*
+- [Çanakkale Açık Veri Platformu](https://acikveri.canakkale.bel.tr/) - Çanakkale municipal datasets. CKAN. *Çanakkale açık veri platformu; CKAN API.*
+- [Kayseri Açık Veri](https://acikveri.kayseri.bel.tr/) - Kayseri Metropolitan Municipality datasets by category, with data requests. *Kayseri Büyükşehir Belediyesi açık veri platformu.*
+- [Kocaeli Açık Veri](https://veri.kocaeli.bel.tr/) - Kocaeli Metropolitan Municipality open data portal. *Kocaeli Büyükşehir Belediyesi açık veri portalı.*
+- [MBB Açık Veri Portalı](https://data.marmara.gov.tr/) - Marmara Municipalities Union's regional datasets on urbanisation, culture, environment and disaster management. *Marmara Belediyeler Birliği bölgesel veri setleri.*
+
+### District Municipalities
+
+- [Küçükçekmece Açık Veri Platformu](https://acikveri.kucukcekmece.bel.tr/) - Küçükçekmece (Istanbul) district datasets. *Küçükçekmece Belediyesi açık veri platformu.*
+- [Tuzla Açık Veri Portalı](https://veri.tuzla.bel.tr/) - Tuzla (Istanbul) district datasets. CKAN. *Tuzla Belediyesi açık veri portalı; CKAN API.*
+- [Eyüpsultan Açık Veri](https://acikveri.eyupsultan.bel.tr/) - Eyüpsultan (Istanbul) district datasets. *Eyüpsultan Belediyesi açık veri portalı.*
+- [Nilüfer Açık Veri Portalı](https://acikveri.nilufer.bel.tr/) - Nilüfer (Bursa) district datasets. CKAN. *Nilüfer Belediyesi açık veri portalı; CKAN API.*
+
+## Transport
+
+- [İBB Toplu Ulaşım GTFS Verisi](https://data.ibb.gov.tr/dataset/public-transport-gtfs-data) - GTFS feed for Istanbul public transport. İBB Open Data License. *İstanbul toplu ulaşım GTFS verisi.*
+- [İzmir Toplu Ulaşım GTFS Verileri](https://acikveri.bizizmir.com/dataset/toplu-ulasim-gtfs-verileri) - GTFS feed for İzmir public transport. İzmir Open Data License. *İzmir toplu ulaşım GTFS verisi.*
+- [İBB Ulaşım Yönetim Merkezi](https://uym.ibb.gov.tr/) - Istanbul traffic density map and traffic bulletins. *İstanbul trafik yoğunluk haritası ve trafik bültenleri.*
+- [KGM Trafik Hacim Haritaları](https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Trafik/TrafikHacimHaritasi.aspx) - General Directorate of Highways traffic volume maps for the national road network. *Karayolları Genel Müdürlüğü trafik hacim haritaları.*
+- [DHMİ İstatistikleri](https://www.dhmi.gov.tr/Sayfalar/Istatistikler.aspx) - Monthly aircraft, passenger and cargo statistics for Turkish airports, downloadable. *Havalimanları uçak, yolcu ve yük istatistikleri.*
+
+## Elections
+
+- [YSK Açık Veri Portalı](https://acikveri.ysk.gov.tr/anasayfa) - Supreme Election Council dashboards on voters, candidates, parties and results, exportable to Excel. *Yüksek Seçim Kurulu seçmen, aday, parti ve sonuç panoları; Excel'e aktarılabilir.*
+- [YSK Sandık Sonuçları ve Tutanaklar](https://sonuc.ysk.gov.tr/) - Ballot-box level election results and tally sheets. *Sandık bazında seçim sonuçları ve tutanaklar.*
+- [turkeyelections](https://cran.r-project.org/package=turkeyelections) - R package with general, local and presidential election results from 1995 to 2024 by province. MIT License. *1995-2024 seçim sonuçlarını il bazında içeren R paketi.*
 
 ## Contributing
 

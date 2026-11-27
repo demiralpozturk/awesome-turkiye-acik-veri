@@ -5,6 +5,7 @@
 # missing intermediate open it fine; checked manually.
 ^https://verisistemi\.tbb\.org\.tr/
 ^https://www\.tobb\.org\.tr/
+^https://acikveri.denizli.bel.tr/
 
 # Server only offers TLS cipher suites without forward secrecy, which the
 # link checker does not support; checked manually.
