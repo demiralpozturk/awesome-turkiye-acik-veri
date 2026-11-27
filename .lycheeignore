@@ -6,3 +6,10 @@
 # missing intermediate open it fine; checked manually.
 ^https://verisistemi\.tbb\.org\.tr/
 ^https://www\.tobb\.org\.tr/
+
+# Server only offers TLS cipher suites without forward secrecy, which the
+# link checker does not support; checked manually.
+^https://ekap\.kik\.gov\.tr/
+
+# Times out from CI runners outside Türkiye; checked manually.
+^https://karararama\.yargitay\.gov\.tr/
