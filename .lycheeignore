@@ -11,8 +11,8 @@
 # link checker does not support; checked manually.
 ^https://ekap\.kik\.gov\.tr/
 
-# Times out or resets connections from CI runners outside Türkiye; checked
-# manually from Türkiye.
+# Times out, resets connections or returns server errors only for CI runners
+# outside Türkiye; checked manually from Türkiye.
 ^https://karararama\.yargitay\.gov\.tr/
 ^https://ticaret\.gov\.tr/
 ^https://uygulama\.gtb\.gov\.tr/
@@ -26,3 +26,4 @@
 ^https://acikveri\.nilufer\.bel\.tr/
 ^https://acikveri\.ysk\.gov\.tr/
 ^https://sonuc\.ysk\.gov\.tr/
+^https://acikveri.trabzon.bel.tr/
