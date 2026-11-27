@@ -23,6 +23,11 @@
 - [Health](#health)
 - [Education and Research](#education-and-research)
 - [Elections](#elections)
+- [Maps and Geodata](#maps-and-geodata)
+- [Turkish NLP and Language Resources](#turkish-nlp-and-language-resources)
+  - [Tools and Models](#tools-and-models)
+  - [Corpora and Datasets](#corpora-and-datasets)
+- [Developer Libraries](#developer-libraries)
 
 ## Statistics and National Portals
 
@@ -148,6 +153,59 @@ Portals marked CKAN expose the standard [CKAN Action API](https://docs.ckan.org/
 - [YSK Açık Veri Portalı](https://acikveri.ysk.gov.tr/anasayfa) - Supreme Election Council dashboards on voters, candidates, parties and results, exportable to Excel. *Yüksek Seçim Kurulu seçmen, aday, parti ve sonuç panoları; Excel'e aktarılabilir.*
 - [YSK Sandık Sonuçları ve Tutanaklar](https://sonuc.ysk.gov.tr/) - Ballot-box level election results and tally sheets. *Sandık bazında seçim sonuçları ve tutanaklar.*
 - [turkeyelections](https://cran.r-project.org/package=turkeyelections) - R package with general, local and presidential election results from 1995 to 2024 by province. MIT License. *1995-2024 seçim sonuçlarını il bazında içeren R paketi.*
+
+## Maps and Geodata
+
+- [TUCBS](https://tucbs.gov.tr/) - Türkiye National Geographic Information System portal with a geodata viewer, data dictionary, metadata catalogue and geographic open data portal. *Türkiye Ulusal Coğrafi Bilgi Sistemi; coğrafi veri görüntüleme ve açık veri portalı.*
+- [HGM Atlas](https://atlas.harita.gov.tr/) - Map viewer of the General Directorate of Mapping. *Harita Genel Müdürlüğü harita görüntüleyicisi.*
+- [Harita İstanbul](https://harita.istanbul/) - Istanbul Metropolitan Municipality's city map. *İBB şehir haritası.*
+- [Geofabrik Türkiye](https://download.geofabrik.de/europe/turkey.html) - Frequently updated OpenStreetMap extracts for Türkiye in PBF, shapefile and GeoPackage formats. ODbL. *Türkiye OpenStreetMap verisi; PBF, shapefile ve GeoPackage.*
+- [OpenStreetMap WikiProject Turkey](https://wiki.openstreetmap.org/wiki/Turkey) - Community wiki with Türkiye mapping conventions and resources. *Türkiye haritalama kuralları ve kaynakları.*
+- [geoBoundaries](https://www.geoboundaries.org/) - Open administrative boundary data, including Türkiye's province and district layers with the license stated per layer. *İl ve ilçe sınırları dahil açık idari sınır verisi.*
+- [GADM](https://gadm.org/download_country.html) - Administrative boundaries for every country, including Türkiye. Free for academic and other non-commercial use only. *İdari sınırlar; yalnızca akademik ve ticari olmayan kullanım.*
+- [PTT Posta Kodu Sorgulama](https://www.ptt.gov.tr/posta-kodu) - Official postal code lookup. *Resmî posta kodu sorgulama.*
+
+## Turkish NLP and Language Resources
+
+### Tools and Models
+
+- [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) - Java toolkit for Turkish morphology, tokenization, normalization and more. Apache-2.0. *Türkçe biçimbilim, sözcükleme ve normalleştirme araçları (Java).*
+- [zemberek-python](https://github.com/Loodos/zemberek-python) - Python implementation of Zemberek. Apache-2.0. *Zemberek'in Python uygulaması.*
+- [BERTurk](https://huggingface.co/dbmdz/bert-base-turkish-cased) - Cased BERT model for Turkish; more variants in the [turkish-bert](https://github.com/stefan-it/turkish-bert) repository. MIT. *Türkçe BERT modeli.*
+- [VNLP](https://github.com/vngrs-ai/vnlp) - Lightweight Turkish NLP tools for tasks such as NER, POS tagging and sentiment analysis. AGPL-3.0. *Hafif Türkçe doğal dil işleme araçları.*
+- [Turkish spaCy Models](https://github.com/turkish-nlp-suite/turkish-spacy-models) - spaCy pipelines for Turkish by the Turkish NLP Suite. CC BY-SA 4.0. *Türkçe spaCy modelleri.*
+- [turkish-morphology](https://github.com/google-research/turkish-morphology) - Two-level morphological analyzer for Turkish from Google Research (archived). Apache-2.0. *Türkçe iki düzeyli biçimbilimsel çözümleyici.*
+- [Mukayese](https://github.com/alisafaya/mukayese) - Datasets, benchmarks and baselines for several Turkish NLP tasks. MIT. *Türkçe NLP görevleri için veri setleri ve karşılaştırmalı değerlendirmeler.*
+- [Turkish GPT-2](https://huggingface.co/ytu-ce-cosmos/turkish-gpt2) - Text generation model for Turkish based on GPT-2, from the YTU COSMOS group. MIT. *YTÜ COSMOS'un Türkçe GPT-2 modeli.*
+- [Trendyol LLM](https://huggingface.co/Trendyol/Trendyol-LLM-7b-chat-v1.8) - Mistral-7B-based chat model trained mainly on Turkish and English. Apache-2.0. *Ağırlıklı olarak Türkçe ve İngilizce eğitilmiş, Mistral 7B tabanlı sohbet modeli.*
+- [Turkcell-LLM-7b-v1](https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1) - Mistral-7B-based model with a Turkish-extended tokenizer, trained on 5 billion Turkish tokens. Apache-2.0. *Türkçe için genişletilmiş, Mistral 7B tabanlı dil modeli.*
+
+### Corpora and Datasets
+
+- [UD Turkish-BOUN](https://github.com/UniversalDependencies/UD_Turkish-BOUN) - Universal Dependencies treebank of Turkish from Boğaziçi University. CC BY-SA 4.0. *Boğaziçi Üniversitesi Türkçe bağlılık ağaç bankası.*
+- [BellaTurca](https://huggingface.co/datasets/turkish-nlp-suite/BellaTurca) - Large Turkish text corpus collection by the Turkish NLP Suite. CC BY-SA 4.0. *Büyük ölçekli Türkçe metin derlemi.*
+- [TS Corpus](https://tscorpus.com/) - Free, independent project building Turkish corpora, lexical tools and linguistic datasets since 2011. *2011'den beri Türkçe derlem, sözlük araçları ve dilbilimsel veri setleri.*
+- [TULAP](https://tulap.cmpe.bogazici.edu.tr/) - Boğaziçi University's Turkish NLP platform hosting corpora and tools with demos. *Boğaziçi Üniversitesi Türkçe Doğal Dil İşleme Platformu.*
+- [İTÜ NLP Datasets](http://tools.nlp.itu.edu.tr/Datasets) - Turkish NLP datasets from Istanbul Technical University's NLP group. *İTÜ Doğal Dil İşleme grubunun Türkçe veri setleri.*
+- [YTÜ Kemik Veri Kümeleri](http://www.kemik.yildiz.edu.tr/veri_kumelerimiz.html) - Turkish text datasets from Yıldız Technical University's Kemik NLP group. *YTÜ Kemik grubunun Türkçe metin veri kümeleri.*
+- [Turkish Wikipedia Dumps](https://dumps.wikimedia.org/trwiki/) - Regular dumps of Turkish Wikipedia. CC BY-SA. *Türkçe Vikipedi dökümleri.*
+- [Common Voice Turkish](https://commonvoice.mozilla.org/tr/datasets) - Crowd-sourced Turkish speech dataset. CC0-1.0. *Gönüllülerce toplanan Türkçe konuşma veri seti.*
+- [TDK Güncel Türkçe Sözlük](https://sozluk.gov.tr/) - Turkish Language Association's official dictionary. Website only; no documented public API. *Türk Dil Kurumu resmî sözlüğü.*
+
+## Developer Libraries
+
+- [python-stdnum](https://github.com/arthurdejong/python-stdnum) - Python validators for standard numbers, including Turkish identity numbers (`tr.tckimlik`), tax numbers (`tr.vkn`) and IBAN. LGPL-2.1. *TCKN, VKN ve IBAN doğrulama (Python).*
+- [stdnum-js](https://github.com/koblas/stdnum-js) - JavaScript validators for standard numbers, including Turkish TCKN and VKN. MIT. *TCKN ve VKN doğrulama (JavaScript).*
+- [TurkiyeAPI](https://github.com/ubeydeozdmr/turkiye-api) - REST API for provinces, districts, municipalities, neighbourhoods and villages, with a hosted version and OpenAPI docs. MIT. *İl, ilçe, mahalle ve köy verileri için REST API.*
+- [turkey-neighbourhoods](https://github.com/muratgozel/turkey-neighbourhoods) - Names of cities, districts and neighbourhoods with postal codes, plate codes and city distances. MIT. *İl, ilçe, mahalle, posta kodu, plaka ve şehirlerarası mesafe verileri.*
+- [holidays](https://github.com/vacanza/holidays) - Python library for public holidays with Türkiye support. MIT. *Türkiye destekli resmî tatil kütüphanesi (Python).*
+- [date-holidays](https://github.com/commenthol/date-holidays) - JavaScript holiday library with Türkiye support. ISC code, CC BY-SA 4.0 data. *Türkiye destekli tatil kütüphanesi (JavaScript).*
+- [Nager.Holidays API](https://nagerholidays.com/api) - Free public holiday REST API that covers Türkiye. MIT. *Türkiye'yi kapsayan ücretsiz resmî tatil API'si.*
+- [Faker](https://github.com/joke2k/faker) - Python fake data generator with a `tr_TR` locale. MIT. *Türkçe yerel ayarlı sahte veri üretici (Python).*
+- [Faker.js](https://github.com/faker-js/faker) - JavaScript fake data generator with a `tr` locale. MIT. *Türkçe yerel ayarlı sahte veri üretici (JavaScript).*
+- [tcmb](https://github.com/kaymal/tcmb-py) - Python client for the Central Bank's EVDS web service. MIT. *EVDS için Python istemcisi.*
+- [evds](https://github.com/fatihmete/evds) - Python package for accessing EVDS statistics. MIT. *EVDS verileri için Python paketi.*
+- [CBRT](https://cran.r-project.org/package=CBRT) - R package for EVDS data series. GPL-3.0. *EVDS veri serileri için R paketi.*
 
 ## Contributing
 
