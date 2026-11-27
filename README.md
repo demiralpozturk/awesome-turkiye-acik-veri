@@ -12,6 +12,8 @@
 - [Statistics and National Portals](#statistics-and-national-portals)
 - [Economy and Finance](#economy-and-finance)
 - [Energy](#energy)
+- [Legislation and Justice](#legislation-and-justice)
+- [Trade and Customs](#trade-and-customs)
 
 ## Statistics and National Portals
 
@@ -39,6 +41,29 @@
 
 - [EPİAŞ Şeffaflık Platformu](https://seffaflik.epias.com.tr/) - Electricity and natural gas market transparency data such as prices, generation and consumption, with documented REST APIs ([electricity](https://seffaflik.epias.com.tr/electricity-service/technical/tr/index.html), [natural gas](https://seffaflik.epias.com.tr/natural-gas-service/technical/tr/index.html)). API access requires a free account and a TGT token. *Elektrik ve doğal gaz piyasası şeffaflık verileri; API için üyelik ve TGT gerekir.*
 - [EPDK Akaryakıt Fiyatları](https://www.epdk.gov.tr/Detay/Icerik/3-0-158/akaryak%C4%B1tfiyat) - Energy Market Regulatory Authority reports on daily fuel prices of the eight highest-volume distributors since 2016. *En yüksek işlem hacimli 8 dağıtıcının 2016'dan bu yana günlük akaryakıt fiyatları.*
+
+## Legislation and Justice
+
+- [Resmî Gazete](https://www.resmigazete.gov.tr/) - Official Gazette of the Republic of Türkiye; each day's index is at `eskiler/YYYY/MM/YYYYMMDD.htm`. *Günlük Resmî Gazete; her günün fihristi sabit bir adres kalıbında.*
+- [Mevzuat Bilgi Sistemi](https://www.mevzuat.gov.tr/) - Consolidated texts of laws, presidential decrees, regulations and communiqués. *Kanun, Cumhurbaşkanlığı kararnamesi, yönetmelik ve tebliğlerin güncel metinleri.*
+- [TBMM](https://www.tbmm.gov.tr/) - Grand National Assembly with bills, laws, parliamentary questions and lists of MPs. *Kanun teklifleri, kanunlar, soru önergeleri ve milletvekili listeleri.*
+- [Anayasa Mahkemesi Kararlar Bilgi Bankası](https://kararlarbilgibankasi.anayasa.gov.tr/) - Searchable database of Constitutional Court decisions. *Anayasa Mahkemesi kararları arama.*
+- [Yargıtay Karar Arama](https://karararama.yargitay.gov.tr/) - Court of Cassation decision search. Web interface only. *Yargıtay kararları arama; yalnızca web arayüzü.*
+- [Danıştay Karar Arama](https://karararama.danistay.gov.tr/) - Council of State decision search. Web interface only. *Danıştay kararları arama; yalnızca web arayüzü.*
+- [UYAP Emsal Karar Arama](https://emsal.uyap.gov.tr/) - Precedent decision search of the national judiciary informatics system. *Ulusal Yargı Ağı emsal karar arama.*
+- [Rekabet Kurulu Kararları](https://www.rekabet.gov.tr/tr/Kararlar) - Competition Board decision search. *Rekabet Kurulu kararları arama.*
+- [Sayıştay Raporları](https://www.sayistay.gov.tr/reports) - Court of Accounts audit reports on public administrations. *Kamu idarelerine ait Sayıştay denetim raporları.*
+- [EKAP](https://ekap.kik.gov.tr/) - Electronic Public Procurement Platform with tender announcements and results. *Elektronik Kamu Alımları Platformu; ihale ilanları ve sonuçları.*
+
+## Trade and Customs
+
+- [Ticaret Bakanlığı Dış Ticaret İstatistikleri](https://ticaret.gov.tr/istatistikler/dis-ticaret-istatistikleri) - Ministry of Trade monthly foreign trade figures and data bulletins. *Ticaret Bakanlığı aylık dış ticaret verileri ve bültenleri.*
+- [TÜİK Dış Ticaret İstatistikleri](https://biruni.tuik.gov.tr/disticaretapp/menu.zul) - Interactive query tool for official foreign trade statistics. *Resmî dış ticaret istatistikleri için etkileşimli sorgulama aracı.*
+- [TARA](https://uygulama.gtb.gov.tr/Tara/) - Integrated customs tariff search by keyword or GTİP (HS) code. *Kelime veya GTİP koduyla Türkiye entegre gümrük tarifesi arama.*
+- [Hal Kayıt Sistemi Fiyatları](https://www.hal.gov.tr/Sayfalar/FiyatDetaylari.aspx) - Product price details from the wholesale produce market registry. *Hal Kayıt Sistemi ürün fiyat detayları.*
+- [TİM İhracat Rakamları](https://tim.org.tr/tr/ihracat-rakamlari) - Turkish Exporters Assembly monthly export figures by sector. *Türkiye İhracatçılar Meclisi aylık sektörel ihracat rakamları.*
+- [Market Fiyatı](https://marketfiyati.org.tr/) - Grocery price comparison across thousands of products in many stores. No documented public API. *Birçok mağazada binlerce ürünün fiyat karşılaştırması.*
+- [TOBB Kurulan ve Kapanan Şirket İstatistikleri](https://www.tobb.org.tr/BilgiErisimMudurlugu/Sayfalar/KurulanKapananSirketistatistikleri.php) - Official statistics on companies founded and closed, published by the Union of Chambers and Commodity Exchanges. *Kurulan ve kapanan şirketlere ilişkin resmî istatistikler.*
 
 ## Contributing
 
