@@ -28,6 +28,8 @@
   - [Tools and Models](#tools-and-models)
   - [Corpora and Datasets](#corpora-and-datasets)
 - [Developer Libraries](#developer-libraries)
+- [Community and Related Lists](#community-and-related-lists)
+- [Related Open Projects](#related-open-projects)
 
 ## Statistics and National Portals
 
@@ -206,6 +208,21 @@ Portals marked CKAN expose the standard [CKAN Action API](https://docs.ckan.org/
 - [tcmb](https://github.com/kaymal/tcmb-py) - Python client for the Central Bank's EVDS web service. MIT. *EVDS için Python istemcisi.*
 - [evds](https://github.com/fatihmete/evds) - Python package for accessing EVDS statistics. MIT. *EVDS verileri için Python paketi.*
 - [CBRT](https://cran.r-project.org/package=CBRT) - R package for EVDS data series. GPL-3.0. *EVDS veri serileri için R paketi.*
+
+## Community and Related Lists
+
+- [AVTED](https://avted.org.tr/) - Open Data and Technology Association, publisher of the Open Data Index for Türkiye. *Açık Veri ve Teknoloji Derneği; Açık Veri Endeksi.*
+- [OpenStreetMap Türkiye Forum](https://community.openstreetmap.org/c/communities/tr/118) - Turkish OpenStreetMap community forum. *Türkiye OpenStreetMap topluluk forumu.*
+- [Türkiye'deki Açık Veri Portalları](https://github.com/ozancanozdemir/Turkiye-deki-Acik-Veri-Portallari-Open-Data-Portals-in-Turkey-) - Bilingual catalogue of open data portals in and about Türkiye. *Türkiye'deki ve Türkiye ile ilgili açık veri portalları kataloğu.*
+- [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) - Curated list of Turkish open data platforms. *Türkiye'nin açık veri platformları listesi.*
+- [Turkish NLP Resources](https://github.com/agmmnn/turkish-nlp-resources) - Tools, libraries, models and datasets for Turkish NLP. *Türkçe doğal dil işleme kaynakları listesi.*
+
+## Related Open Projects
+
+Open-source projects built on the sources above.
+
+- [resmi-gazete-takip](https://github.com/demiralpozturk/resmi-gazete-takip) - Turns the daily Resmî Gazete into open JSON data, an RSS feed and a searchable site, highlighting customs and foreign trade items. By the list creator. MIT. *Resmî Gazete'yi günlük açık veriye, RSS'e ve aranabilir siteye dönüştürür; liste yazarının projesi.*
+- [market-scraper](https://github.com/demiralpozturk/market-scraper) - Supermarket price comparison for Türkiye with open JSON data refreshed every six hours by GitHub Actions. By the list creator. MIT. *Market fiyat karşılaştırması ve açık JSON verisi; liste yazarının projesi.*
 
 ## Contributing
 
