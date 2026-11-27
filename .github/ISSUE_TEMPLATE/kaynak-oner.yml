@@ -1,0 +1,88 @@
+name: Kaynak öner / Suggest a source
+description: Listeye yeni bir açık veri kaynağı, API veya veri seti önerin. / Suggest a new open data source, API or dataset.
+title: "[Kaynak] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Lütfen önce [katkı rehberini](https://github.com/demiralpozturk/awesome-turkiye-acik-veri/blob/main/contributing.md) okuyun.
+        Thanks! Please read the [contribution guidelines](https://github.com/demiralpozturk/awesome-turkiye-acik-veri/blob/main/contributing.md) first.
+  - type: input
+    id: name
+    attributes:
+      label: Kaynağın adı / Name of the source
+      placeholder: "İBB Açık Veri Portalı"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Bağlantı / URL
+      description: En spesifik ve kalıcı sayfa (ör. API dokümantasyonu). / The most specific stable page, such as API documentation.
+      placeholder: "https://data.ibb.gov.tr/"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Kategori / Category
+      options:
+        - Statistics and National Portals
+        - Economy and Finance
+        - Energy
+        - Legislation and Justice
+        - Trade and Customs
+        - Municipalities
+        - Transport
+        - Earthquake and Disaster
+        - Weather and Environment
+        - Health
+        - Education and Research
+        - Elections
+        - Maps and Geodata
+        - Turkish NLP and Language Resources
+        - Developer Libraries
+        - Community and Related Lists
+        - Other / Diğer
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Açıklama / Description
+      description: Kısa İngilizce ve Türkçe açıklama. / A short English and Turkish description.
+      placeholder: |
+        EN: CKAN portal with hundreds of Istanbul datasets.
+        TR: İstanbul'a ait yüzlerce veri seti içeren CKAN portalı.
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Erişim / Access
+      multiple: true
+      options:
+        - Doğrudan indirme / Direct download
+        - Açık API (anahtarsız) / Open API (no key)
+        - API anahtarı veya üyelik gerekir / API key or account required
+        - Yalnızca web arayüzü / Web interface only
+        - Ücretli / Paid
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Lisans veya kullanım koşulları / License or terms of use
+      placeholder: "CC BY 4.0, MIT, kurumun kullanım koşulları..."
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Kontroller / Checks
+      options:
+        - label: Bağlantıyı açtım, canlı ve açıklanan içeriği gösteriyor. / I opened the link; it is live and shows the described content.
+          required: true
+        - label: Kişisel veri sorgulama hizmeti, sızdırılmış veri veya koşullara aykırı kazıma aracı değil. / It is not a personal-data lookup, a leaked dataset or a scraper against a site's terms.
+          required: true
+        - label: Listede zaten bulunmuyor. / It is not already in the list.
+          required: true

@@ -1,0 +1,58 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Every Monday at 06:00 UTC (09:00 Türkiye)
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    name: awesome-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run awesome-lint
+        run: npx --yes awesome-lint@2.3.0
+        env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  links:
+    name: Link check (lychee)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --cache --max-cache-age 1d --no-progress './**/*.md'
+          format: markdown
+          output: ./lychee/out.md
+          fail: true
+      - name: Open an issue for broken links
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Weekly link check found broken links
+          content-filepath: ./lychee/out.md
+          labels: broken-links
