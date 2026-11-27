@@ -1,6 +1,5 @@
-# Hosts that are checked manually because they block or time out for
-# automated requests from outside Türkiye. Keep this list short and
-# re-check these links by hand before each release.
+# Hosts that the CI link checker cannot verify. Keep this list short and
+# re-check these links by hand from Türkiye before removing or adding entries.
 
 # Server sends an incomplete TLS certificate chain. Browsers that fetch the
 # missing intermediate open it fine; checked manually.
@@ -14,3 +13,5 @@
 # Times out or resets connections from CI runners outside Türkiye; checked
 # manually from Türkiye.
 ^https://karararama\.yargitay\.gov\.tr/
+^https://ticaret\.gov\.tr/
+^https://uygulama\.gtb\.gov\.tr/
